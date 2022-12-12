@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    padding: 10px;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.menu ul li {
+    margin-right: 25px;
+}
+
+.menu h1 {
+    color: red;
+}
+
+.menu h1 span{
+    color: white;
+}
+
+.sosmed img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Judul p{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{
+    color: white;
+}
+
+.hero p{
+    color: white;
+}
+
+.foto img{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 150px;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.text p{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
